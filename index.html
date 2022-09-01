@@ -5,70 +5,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <link rel="stylesheet" href="./styles.css">
   <script src="https://kit.fontawesome.com/71fc147181.js" crossorigin="anonymous"></script> <!--fontawesome Icons-->
   
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 </head>
 
 <body>
-  <img src="./images/logo.svg" alt="">
-  <a href="#">Try it free</a>
+  <nav>
+    <div class="logo">
+      <img src="./images/logo.svg" alt="">
+    </div>
+    <a href="#">Try it free</a>
+  </nav>
 
-  <h1>Build The Community Your Fans Will Love</h1>
+  <div class="container-heading">
+    <h1>Build The Community Your Fans Will Love</h1>
 
   <p>Huddle re-imagines the way we build communities. You have a voice, but so does 
     your audience. Create connections with your users as you engage in genuine discussion. </p>
 
   <a href="#">Get Started For Free</a>
-
-  <img src="./images/screen-mockups.svg" alt="">
-
-  <div class="credentials">
-    <ul>
-      <li>
-        <img src="./images/icon-communities.svg" alt="">
-        <span>1.4k+</span>
-        <span>Communities Formed</span>
-      </li>
-      <li>
-        <img src="./images/icon-messages.svg" alt="">
-        <span>2.7m+</span>
-        <span>Messages Sent</span>
-      </li>
-    </ul>
+  <div class="screen-mockup">
+    <img src="./images/screen-mockups.svg" alt="">
+  </div>
   </div>
 
-  <div class="container-grow-together"></div>
+    <ul class="credentials">
+      <li class="communities">
+        <img class="communities-image" src="./images/icon-communities.svg" alt="">
+        <span class="communities-amount">1.4k+</span>
+        <span class="communities-text">Communities Formed</span>
+      </li>
+      <li class="messages">
+        <img class="messages-image" src="./images/icon-messages.svg" alt="">
+        <span class="messages-amount">2.7m+</span>
+        <span class="messages-text">Messages Sent</span>
+      </li>
+    </ul>
 
-  <div class="container-flowing-conversation">
-    <img src="./images/illustration-flowing-conversation.svg" alt="">
-    <h2>Flowing Conversations</h2>
+  <div class="container-grow-together">
+    <div class="grow-together-image">
+      <img src="./images/illustration-grow-together.svg" alt="">
+    </div>
+    <div class="grow-together-text">
+      <h2>Grow Together</h2>
   <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
     just-in-time loading for a more natural flow.</p>
+    </div>
+  </div>
+
+  <div class="container-flowing-conversation">
+    <div class="flowing-conversation-image">
+      <img src="./images/illustration-flowing-conversation.svg" alt="">
+    </div>
+    <div class="flowing-conversation-text">
+      <h2>Flowing Conversations</h2>
+  <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+    just-in-time loading for a more natural flow.</p>
+    </div>
   </div>
 
   <div class="container-your-users">
-    <img src="./images/illustration-your-users.svg" alt="">
-  <h2>Your Users</h2>
+    <div class="your-users-image">
+      <img src="./images/illustration-your-users.svg" alt="">
+    </div>
+    <div class="your-users-text">
+      <h2>Your Users</h2>
   <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
     once signed in to your app, your users can start chatting immediately.</p>
+    </div>
   </div>
 
-  <h3>Ready To Build Your Community?</h3>
-  <a href="Get Started For Free"></a>
-  
-  <div class="footer">
+  <div class="bottom-cta-link">
+    <h3>Ready To Build Your Community?</h3>
+    <a href="Get Started For Free">Get Started For Free</a>
+    
+  </div>
+
+<footer>
     <div class="contact">
-      <img src="./images/logo.svg" alt="">
+      <div class="logo-bottom">
+        <img src="./images/logo.svg" alt="">
+      </div>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
     vestibulum a, ultrices quis sem.</p>
   
     <img src="./images/icon-phone.svg" alt="">
-  Phone: +1-543-123-4567
+  <p>Phone: <a href="tel: +1-543-123-4567">+1-543-123-4567</a></p>
   <img src="./images/icon-email.svg" alt="">
   <a href="mailto:example@huddle.com">example@huddle.com</a>
     </div>
+    
+<div class="icons">
+  <i class="fa-brands fa-square-facebook"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-square-twitter"></i>
+</div>    
 
 <div class="newsletter">
   <h4>Newsletter</h4>
@@ -77,13 +110,12 @@
 
   <button>Subscribe</button>
 </div>
-  </div>
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">David Chavez</a>.
-    </p>
+    <div class="attribution">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://linktr.ee/designsdavidc" target="_blank">David Chavez</a>.
+      </p>
+    </div>
   </footer>
 </body>
 </html>
