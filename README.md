@@ -1,4 +1,4 @@
-# Frontend Mentor - NFT preview card component solution
+# Frontend Mentor - Huddle Landing Page with Curved Sections
 
 ![Mobile version stacked](./design/design-stack.jpg)
 ![Web design layout of front end mentor QR Code Component Solution](./design/desktop-design.jpg)
